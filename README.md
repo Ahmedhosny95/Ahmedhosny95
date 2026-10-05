@@ -19,3 +19,5 @@ I am Ahmed Khalawy, a mechanical engineer and Senior QA/QC Engineer based in Riy
 [من نموذج SolidWorks إلى رسم يصلح للشرح والتدريب](./articles/solidworks-training-drawing-demonstration.md)
 
 [Power Query لتوحيد سجلات الفحص دون فقد المعنى](./articles/power-query-inspection-data-reconciliation.md)
+- [قراءة PPM عندما تكون العينة صغيرة](articles/ppm-small-sample-uncertainty.md)
+- [سلسلة تتبع دفعة من المورد إلى نتيجة الفحص](articles/lot-batch-inspection-traceability-chain.md)
