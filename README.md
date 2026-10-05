@@ -17,3 +17,5 @@ I am Ahmed Khalawy, a mechanical engineer and Senior QA/QC Engineer based in Riy
 [كيف تراجع شهادة معايرة دون افتراض أنها تقبل الأداة؟](./articles/calibration-certificate-review.md)
 
 [من نموذج SolidWorks إلى رسم يصلح للشرح والتدريب](./articles/solidworks-training-drawing-demonstration.md)
+
+[Power Query لتوحيد سجلات الفحص دون فقد المعنى](./articles/power-query-inspection-data-reconciliation.md)
