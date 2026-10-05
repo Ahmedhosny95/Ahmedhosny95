@@ -21,3 +21,4 @@ I am Ahmed Khalawy, a mechanical engineer and Senior QA/QC Engineer based in Riy
 [Power Query لتوحيد سجلات الفحص دون فقد المعنى](./articles/power-query-inspection-data-reconciliation.md)
 - [قراءة PPM عندما تكون العينة صغيرة](articles/ppm-small-sample-uncertainty.md)
 - [سلسلة تتبع دفعة من المورد إلى نتيجة الفحص](articles/lot-batch-inspection-traceability-chain.md)
+- [لوحة جودة Power BI: المصدر وآخر تحديث قبل اللون الأخضر](articles/power-bi-quality-dashboard-source-refresh.md)
