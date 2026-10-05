@@ -1,0 +1,11 @@
+SourceFile,SourceRow,DateFormat,SourceCulture,IDRaw,DateRaw,ReadingRaw,UnitRaw,SourceResultRaw,InspectionID,InspectionDate,ReadingNumber,Unit,SourceResult,ReadingMM,IDOccurrences,Issues,RowState
+inspections_a.csv,1,dd/MM/yyyy,en-GB,00123,31/01/2026,12.5,mm,Pass,00123,2026-01-31,12.5,mm,Pass,12.5,2,duplicate_id,review
+inspections_a.csv,2,dd/MM/yyyy,en-GB,00124,01/02/2026,1.25,cm,Pass,00124,2026-02-01,1.25,cm,Pass,12.5,1,,ready_for_demo
+inspections_a.csv,3,dd/MM/yyyy,en-GB,00125,not-a-date,12.5,mm,Pass,00125,,12.5,mm,Pass,12.5,1,invalid_date,review
+inspections_a.csv,4,dd/MM/yyyy,en-GB,,02/02/2026,12.5,mm,Pass,,2026-02-02,12.5,mm,Pass,12.5,0,missing_id,review
+inspections_a.csv,5,dd/MM/yyyy,en-GB,00126,03/02/2026,abc,mm,Fail,00126,2026-02-03,,mm,Fail,,1,invalid_reading,review
+inspections_b.csv,1,MM/dd/yyyy,en-US,00123,01/31/2026,1.25,cm,Pass,00123,2026-01-31,1.25,cm,Pass,12.5,2,duplicate_id,review
+inspections_b.csv,2,MM/dd/yyyy,en-US,00127,01/02/2026,12.5,mm,Pass,00127,2026-01-02,12.5,mm,Pass,12.5,1,,ready_for_demo
+inspections_b.csv,3,MM/dd/yyyy,en-US,00128,02/04/2026,12.5,,Pass,00128,2026-02-04,12.5,,Pass,,1,missing_unit,review
+inspections_b.csv,4,MM/dd/yyyy,en-US,00129,02/05/2026,12.5,inch,Pass,00129,2026-02-05,12.5,inch,Pass,,1,unsupported_unit,review
+inspections_b.csv,5,MM/dd/yyyy,en-US,00130,02/30/2026,12.5,mm,,00130,,12.5,mm,,12.5,1,invalid_date;missing_source_result,review

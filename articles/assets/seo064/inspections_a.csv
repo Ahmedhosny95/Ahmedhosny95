@@ -1,0 +1,6 @@
+InspectionID,InspectionDate,Reading,Unit,Result
+00123,31/01/2026,12.5,mm,Pass
+00124,01/02/2026,1.25,cm,Pass
+00125,not-a-date,12.5,mm,Pass
+,02/02/2026,12.5,mm,Pass
+00126,03/02/2026,abc,mm,Fail

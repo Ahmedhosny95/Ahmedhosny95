@@ -1,0 +1,3 @@
+SourceFile,ExpectedInputRows,OutputRows,ReadyRows,ReviewRows,PassLabels,FailLabels,BlankResultLabels,RowReconciles
+inspections_a.csv,5,5,1,4,4,1,0,true
+inspections_b.csv,5,5,1,4,4,0,1,true

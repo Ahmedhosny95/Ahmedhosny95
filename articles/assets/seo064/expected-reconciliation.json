@@ -1,0 +1,35 @@
+{
+  "synthetic_training_fixture": true,
+  "actual_company_data": false,
+  "expected_results_origin": "Manually specified teaching expectations; checked independently in Python, not exported from Power Query or Excel.",
+  "input_rows": 10,
+  "normalized_rows": 10,
+  "rows_removed": 0,
+  "ready_for_demo_rows": 2,
+  "review_rows": 8,
+  "source_result_label_counts": {"Pass": 8, "Fail": 1, "blank": 1},
+  "issue_occurrences": {
+    "duplicate_id": 2,
+    "invalid_date": 2,
+    "missing_id": 1,
+    "invalid_reading": 1,
+    "missing_unit": 1,
+    "unsupported_unit": 1,
+    "missing_source_result": 1
+  },
+  "per_source": [
+    {"SourceFile": "inspections_a.csv", "ExpectedInputRows": 5, "OutputRows": 5, "ReadyRows": 1, "ReviewRows": 4, "PassLabels": 4, "FailLabels": 1, "BlankResultLabels": 0, "RowReconciles": true},
+    {"SourceFile": "inspections_b.csv", "ExpectedInputRows": 5, "OutputRows": 5, "ReadyRows": 1, "ReviewRows": 4, "PassLabels": 4, "FailLabels": 0, "BlankResultLabels": 1, "RowReconciles": true}
+  ],
+  "interpretation": {
+    "source_row": "One-based data-record index after the header; not a general physical CSV line number.",
+    "inspection_id": "Text identifier of one inspection event within this exercise; duplicates are preserved and flagged for review.",
+    "ready_for_demo": "Meets this fixture's data checks only; no product-acceptance or pass-rate conclusion.",
+    "source_result": "Preserved source label; never computed from the numerical reading.",
+    "issue_occurrences": "Multiple issues can affect one row, so issue counts are not a partition of row counts.",
+    "blank_normalized_cells": "Empty CSV cells represent null only for InspectionID, InspectionDate, ReadingNumber and ReadingMM. Blank Unit and SourceResult are empty text.",
+    "unsupported_unit": "inch is deliberately outside this two-unit exercise, not a claim that the unit is invalid or cannot be converted."
+  },
+  "power_query_execution_verified": false,
+  "excel_execution_verified": false
+}
