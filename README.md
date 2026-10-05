@@ -15,3 +15,5 @@ I am Ahmed Khalawy, a mechanical engineer and Senior QA/QC Engineer based in Riy
 [إغلاق CAPA: فرق بين تنفيذ الإجراء ومنع التكرار](./articles/capa-closure-effectiveness-proof.md)
 
 [كيف تراجع شهادة معايرة دون افتراض أنها تقبل الأداة؟](./articles/calibration-certificate-review.md)
+
+[من نموذج SolidWorks إلى رسم يصلح للشرح والتدريب](./articles/solidworks-training-drawing-demonstration.md)
