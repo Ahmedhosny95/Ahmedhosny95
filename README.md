@@ -11,3 +11,5 @@ I am Ahmed Khalawy, a mechanical engineer and Senior QA/QC Engineer based in Riy
 ## مقالات مهنية
 
 [QA وQC وQMS: كيف تختلف المسؤوليات اليومية؟](./articles/qa-qc-qms-role-comparison.md)
+
+[إغلاق CAPA: فرق بين تنفيذ الإجراء ومنع التكرار](./articles/capa-closure-effectiveness-proof.md)
